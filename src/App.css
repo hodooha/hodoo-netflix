@@ -1,0 +1,577 @@
+body {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+
+.navbar-area {
+  background-color: black;
+}
+
+.nav-item {
+  margin-right: 10px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.search-area {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  margin-right: 10px;
+  height: 50px;
+
+}
+
+.search-btn {
+  height: 50px;
+  margin: 0 !important
+}
+
+.banner {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.banner::before {
+  content: '';
+  background: linear-gradient(to right, black, transparent);
+  width: 80%;
+  height: 600px;
+  position: absolute;
+  left: 0;
+
+}
+
+.banner-info {
+  color: white;
+  width: 40%;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.banner-info h1{
+  font-weight: bold;
+}
+
+.title {
+  font-style: oblique;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.carousel {
+  height: 250px;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+
+}
+
+.overlay {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(43, 41, 41, .9);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.overlay h3 {
+  font-weight: bolder;
+  margin-bottom: 10px;
+
+}
+
+.overlay:hover {
+  opacity: 1;
+
+
+}
+
+.item-vote {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+
+.vote {
+  background-color: goldenrod;
+  width: 60px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  color: black;
+}
+
+.adult {
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-style: oblique;
+  color: greenyellow;
+}
+
+.adult-true {
+  margin-left: 5px;
+  background-color: red;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+.badge {
+  margin-right: 5px;
+}
+
+.detail {
+  padding: 20px 0;
+}
+
+.detail-img {
+  width: 100%;
+  padding: 20px;
+}
+
+.detail-main {
+  padding: 20px 20px 0 20px;
+}
+
+.detail-title {
+  font-weight: bold;
+  font-size: 3em;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.detail-first {
+  display: flex;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.detail-vote {
+  background-color: goldenrod;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+
+}
+
+.detail-popularity {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.detail-first div {
+  margin-right: 20px;
+
+}
+
+.detail-overview {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 30px 0;
+}
+
+.detail-second {
+  list-style: none;
+  padding: 30px 0 20px;
+  border-bottom: 1px solid white;
+}
+
+.detail-second li {
+  margin: 0 0 10px;
+}
+
+.detail-second span {
+  font-weight: bolder;
+  display: inline-block;
+  width: 120px;
+  color: white;
+  background-color: #dc143c;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.detail-bottom{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.detail-genres-badge {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  overflow-wrap: normal;
+  margin: 0 10px 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  
+}
+
+.review-area {
+  border: 4px solid white;
+  padding: 40px;
+}
+
+.review {
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.red-card-area{
+  width: 100%;
+}
+
+.rec-card {
+  height: 180px;
+  margin: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  border: none;
+  border-radius: 5px;
+}
+
+.rec-card:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.rec-overlay {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(43, 41, 41, .9);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.rec-overlay h3 {
+  font-weight: bolder;
+  margin-bottom: 10px;
+
+}
+
+.rec-overlay:hover {
+  opacity: 1;
+
+}
+
+.bottom-btn {
+  color: gray;
+  background-color: white;
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 5px;
+ 
+}
+
+.btn-active {
+  color: white;
+  background-color: #dc143c;
+}
+
+.btn:hover,
+.btn:active,
+.btv:focus {
+  color: white;
+  background-color: #dc143c;
+}
+
+.trailer {
+  color: yellow;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.modal-content-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 90vh;
+  position: relative;
+}
+
+.modal-dialog-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90vw;
+
+
+}
+
+.video {
+  width: 95%;
+  height: 90%;
+
+}
+
+.modal-x-btn {
+  color: #dc143c;
+  font-size: 2em;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.menu {
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  padding: 14px 16px;
+  font-weight: 600;
+}
+
+.sort-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-top: 1px solid white;
+  padding: 10px 0;
+}
+
+.sort-area button {
+  margin: 0;
+}
+
+.sort-button {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-area h5,
+.genre-area h5 {
+  font-weight: 600;
+}
+
+.filter-area {
+  text-align: center;
+  border-top: 1px solid white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+
+.filter-area p span {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.genre-area{
+  text-align: center;
+  padding: 30px 10px;
+  border-top: 1px solid white;
+}
+
+.genre-badges{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.genre-badges span{
+  margin: 5px;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.active-jenre{
+  background-color: white !important;
+  color: #dc143c;
+}
+
+.poster-badge-area span {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 15px;
+} 
+
+.poster {
+  margin: 0 20px;
+  position: relative;
+  background: linear-gradient(to right, #0d0d0c 50%, transparent);
+  max-height: 600px;
+  height: 100%;
+  border-radius: 20px;
+  padding: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.poster-back-img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+
+.poster-head {
+  margin-bottom: 50px;
+}
+
+.poster-head h4 {
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+.poster-sm-img {
+  height: 100px;
+  position: relative;
+  float: left;
+  margin-right: 20px;
+}
+
+.poster-badge-area {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.poster-badge-area span {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+.poster-overview {
+  width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.poster-overview p {
+  font-size: 1em;
+}
+
+.poster-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.popularity {
+  font-weight: 700;
+}
+
+.pagination-area {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+
+}
+
+.pagination-area a {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.pagination-area a:hover,
+.pagination-area a:active,
+.pagination-area a:focus {
+  background-color: white;
+  color: red;
+
+}
+
+.pagination-active a {
+  background-color: white;
+  color: red;
+}
+
+.pagination-disabled a {
+  display: none;
+}
+
+.disabled {
+  display: none;
+}
