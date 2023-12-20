@@ -37,7 +37,7 @@ const Trailer = () => {
 
         <YouTube
           className="video"
-          videoId={trailer.results && trailer.results[0].key}
+          videoId={trailer.results && trailer.results[0] && trailer.results[0].key}
           opts={opts}
           onEnd={(e) => {
             e.target.stopVideo(0);
